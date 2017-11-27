@@ -1,7 +1,7 @@
 var CACHE_NAME = 'bm-mapp-app';
 var urlsToCache = [
     '/',
-    '/static/js/main.95466d6f.js',
+    '/static/js/main.5ab42525.js',
     '/fonts/Montserrat-Regular.woff',
     '/js/search-engine-worker.js',
     '/css/style.css',
