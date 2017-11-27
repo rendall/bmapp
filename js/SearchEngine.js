@@ -86,7 +86,7 @@ var isArt = function (i) { return i.hasOwnProperty("artist"); };
 var isEvent = function (i) { return i.hasOwnProperty("event_id"); };
 var isCamp = function (i) { return i.hasOwnProperty("contact_email") && !i.hasOwnProperty("artist"); };
 var getType = function (i) { return isArt(i) ? 'art' : isEvent(i) ? 'event' : isCamp(i) ? 'camp' : ''; };
-var getEventType = function (i) { return isEvent(i) ? isEmpty(i.event_type) ? '' : i.event_type.label : ''; };
+//const getEventType = (i: BMInfo) => isEvent(i) ? isEmpty((i as BMEvent).event_type) ? '' : (i as BMEvent).event_type.label : '';
 var resultFromInfo = function (i) { return ({
     uid: i.uid,
     name: (i.name || i.title),
@@ -203,7 +203,7 @@ var SearchEngine = /** @class */ (function () {
         this.getInfoById = getInfoById;
         this.eventRange = getRange(occs);
         //this.getResultsByTerm = (term: string) => search(term).map((r: { index: number, score: number }) => r.index).map((i: number) => getInfoByIndex(i)).map(addEventLocation).map(resultFromInfo);
-        this.getResultsByTerm = function (term) { return search(term).map(resultFromFuseResult); };
+        this.getResultsByTerm = function (term) { return search(term).map(function (r) { return isEvent(r) ? addEventLocation(r) : r; }).map(resultFromFuseResult); };
         this.eventResultsAtTime = function (time) { return eventsAtTime(time).map(addEventLocation).map(resultFromInfo); };
     }
     return SearchEngine;
