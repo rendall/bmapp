@@ -1,0 +1,33 @@
+BMApp Privacy Policy 
+
+Draft 2017.12.03
+
+BMApp's Core Principle is that your privacy and identity are sacrosanct. Your data is always and only your own. The creators of BMApp have no interest in selling, trading, monetizing nor even coveting your information. Full stop.
+
+This Privacy Policy is a rough draft, subject to change without notice. However, BMApp's Core Principle will never substantively change.
+
+This Privacy Policy shall not be considered legally binding. Still, BMapp and its creators will conform to this Policy as a matter of reputation and morality. It is a statement of firm principles and intention.
+
+The rest of the Policy expands on what happens if you do decide to turn on tracking, or even to share, your data.
+
+1) Users will always (i.e. in all current and future versions of BMApp) be able to use BMApp anonymously and without tracking.
+
+2) BMApp's default setting will always be 'never track' and 'never share'.
+
+3) The user's clear and informed consent will always be necessary for any change in tracking and sharing behavior. 
+
+4) Some users may want to keep a record of their time at Burning Man, which is an optional feature of BMApp (here denoted 'usage history').
+
+5) Usage history can include timestamped search terms, GPS location, bookmarked camps and artwork, event reminders, event check-ins, personal notes, among others. 
+
+6) The option to record and store this information (i.e. tracking) will always be clearly marked, followed by a confirmation.
+
+7) The user can at any time toggle tracking on and off; view their complete usage history; and permanently delete it.
+
+8) Some users may kindly want to share some or all of their usage history with the creators of BMApp. This option to share will always be off by default, will be clearly marked, and always be accompanied by a confirmation. Further, the user will always have the option to cancel sharing at any time. We respectfully use this information only to improve the user experience of BMApp, and for no other purpose, ever. We will never share any information with any third parties.
+
+9) Some users may want to share some or all of their usage history with the Burning Man Organization. As before, this option to share will always be off by default, will be clearly marked, and always be accompanied by a confirmation. Likewise, the user will always have the option to cancel sharing with Burning Man at any time, and the shared information will always be anonymous. 
+
+10) Any data the user chooses to share with Burning Man moves outside of BMApp's control: please consult the Burning Man Organization's Privacy Policy for more information.
+
+If anything in this Privacy Policy needs clarification, please email xo@disorient.info with any questions.
