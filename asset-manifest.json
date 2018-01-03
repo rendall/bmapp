@@ -1,4 +1,8 @@
 {
-  "main.js": "static/js/main.7f4a0538.js",
-  "main.js.map": "static/js/main.7f4a0538.js.map"
+  "main.js": "js/main.js",
+  "main.js.map": "js/main.js.map",
+  "search.js": "js/search.js",
+  "search.js.map": "js/search.js.map",
+  "serviceWorker.js": "js/serviceWorker.js",
+  "serviceWorker.js.map": "js/serviceWorker.js.map"
 }
