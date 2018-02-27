@@ -3,6 +3,6 @@
   "main.js.map": "js/main.js.map",
   "search.js": "js/search.js",
   "search.js.map": "js/search.js.map",
-  "serviceWorker.js": "serviceWorker.js",
-  "serviceWorker.js.map": "serviceWorker.js.map"
+  "serviceWorker.js": "js/serviceWorker.js",
+  "serviceWorker.js.map": "js/serviceWorker.js.map"
 }
