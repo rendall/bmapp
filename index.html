@@ -14,7 +14,7 @@
 
     if ('serviceWorker' in navigator && (isHttps || isLocal)) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('./js/serviceWorker.js').then(function (registration) {
+        navigator.serviceWorker.register('./serviceWorker.js').then(function (registration) {
           // Registration was successful
           // console.log('ServiceWorker registration successful with scope: ', registration.scope);
         }, function (err) {
@@ -23,4 +23,4 @@
           console.error('ServiceWorker registration failed: ', err);
         });
       });
-    }</script><script type="text/javascript" src="/js/main.js"></script><script type="text/javascript" src="/js/search.js"></script><script type="text/javascript" src="/js/serviceWorker.js"></script></body></html>
+    }</script><script type="text/javascript" src="/js/main.js"></script><script type="text/javascript" src="/js/search.js"></script><script type="text/javascript" src="/serviceWorker.js"></script></body></html>
