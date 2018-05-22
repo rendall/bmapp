@@ -1,8 +1,6 @@
 {
-  "name": "The Burning Mapp App",
   "short_name": "BMApp",
-  "start_url": "/",
-  "display": "standalone",
+  "name": "The Burning Mapp App",
   "icons": [  
     {  
       "src": "/img/icon-192x192.png",  
@@ -25,6 +23,8 @@
       "type": "image/png"  
     }
   ],
+  "start_url": "./index.html",
+  "display": "standalone",
   "theme_color": "#D3D3D3",
   "background_color": "#FFFFFF"
 }
