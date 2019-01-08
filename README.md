@@ -24,7 +24,7 @@ These browsers or more recent:
 * [Redux](https://redux.js.org/)
 * [Service-workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers) for off-line function
 * A [web-worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) generates search-engine results in a separate thread to keep the UI responsive
-* [Fuse](http://fusejs.io) for search-engine library
+* [Fuse](http://fusejs.io) search-engine library
 
 The approach is functional-reactive (RxJS) with single-source-of-truth state management (Redux)
 
@@ -105,3 +105,12 @@ The ./deploy subfolder contains a git submodule repo on Github. A Netlify trigge
     * *main.js* is primarily the UI and entry-point.
 * The search function is delegated to a [web-worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) so that the user interface can remain responsive.
 * On the server, unknown pages (404) should redirect back to root so that *main.js* can process the URL.
+
+## CONTRIBUTE ##
+
+Wonderful! I particularly need help with UI.
+
+1. Create a single issue describing the change you want to make.
+1. Ask me for access to the private repository.
+1. Fork it.
+1. Submit a pull request.
